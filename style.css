@@ -1,0 +1,125 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+.container img {
+    margin-right: 20px; /* Jarak antara gambar dan teks */
+}
+
+/* Reset dasar untuk menghilangkan margin dan padding default */
+body, h1, p, fieldset, input, select, label {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Desain umum untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6d7cff;
+    color: #333;
+    padding: 20px;
+}
+
+/* Desain untuk container */
+.container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container img {
+    width: 150px; /* Ukuran gambar */
+    height: auto;
+}
+
+.container h1 {
+    color: #0056b3;
+}
+
+/* Gaya untuk formulir */
+form {
+    background: #006eff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Gaya untuk fieldset */
+fieldset {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+}
+
+legend {
+    font-weight: bold;
+    color: #000000;
+}
+
+/* Gaya untuk label dan input */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #004494;
+}
+
+/* Styling untuk dropdown */
+select {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+/* Styling untuk checkbox dan radio button */
+input[type="checkbox"],
+input[type="radio"] {
+    margin: 0 5px;
+}
+
+/* Margin untuk elemen formulir */
+br {
+    margin-bottom: 10px;
+}
